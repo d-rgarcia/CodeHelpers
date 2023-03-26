@@ -1,8 +1,8 @@
 using System.Xml;
 
-namespace MyHelpersTest
+namespace CodeHelpers
 {
-    public static class MyXMLHelper
+    public static class XMLHelper
     {
         // See xml structure for <runtime> inside web.config: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/
         public static void CombineWebConfigDependentAssemblies(string sourceConfigFile, string finalConfigFile, string destinationWebConfig)
